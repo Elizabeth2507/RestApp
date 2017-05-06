@@ -9,14 +9,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.DynamicValue = "Running on IIS with ASP.NET 4.5 in Visual Studio 2015";
     }
     return AppComponent;
 }());
 AppComponent = __decorate([
     core_1.Component({
+        moduleId: module.id,
         selector: "my-app",
-        template: "\n                <h1>Hello World!</h1>\n                <h2>{{DynamicValue}}</h2>\n              "
+        templateUrl: './app.component.html'
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
