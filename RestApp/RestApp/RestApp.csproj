@@ -211,7 +211,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.component.html" />
+    <Content Include="app\components\messageslist\messageslist.component.html" />
     <Content Include="app\components\navigationbrand\navigationbrand.component.html" />
+    <Content Include="app\components\navigationmenu%28empty%29\navigationmenu.component.html" />
+    <Content Include="app\components\navigationtoggle\navigationtoggle.component.html" />
+    <Content Include="app\components\notificationlist\notificationlist.component.html" />
+    <Content Include="app\components\profiledropdown\profiledropdown.component.html" />
+    <Content Include="app\components\search\search.component.html" />
+    <Content Include="app\components\shutdown\shutdown.component.html" />
+    <Content Include="app\components\userstatus\userstatus.component.html" />
     <Content Include="Content\bootstrap\bootstrap.css" />
     <Content Include="Content\bootstrap\bootstrap.min.css" />
     <Content Include="Content\compiled\calendar.css" />
@@ -432,7 +440,15 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\components\messageslist\messageslist.component.ts" />
     <TypeScriptCompile Include="app\components\navigationbrand\navigationbrand.component.ts" />
+    <TypeScriptCompile Include="app\components\navigationmenu%28empty%29\navigationmenu.component.ts" />
+    <TypeScriptCompile Include="app\components\navigationtoggle\navigationtoggle.component.ts" />
+    <TypeScriptCompile Include="app\components\notificationlist\notificationlist.component.ts" />
+    <TypeScriptCompile Include="app\components\profiledropdown\profiledropdown.component.ts" />
+    <TypeScriptCompile Include="app\components\search\search.component.ts" />
+    <TypeScriptCompile Include="app\components\shutdown\shutdown.component.ts" />
+    <TypeScriptCompile Include="app\components\userstatus\userstatus.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
   </ItemGroup>
   <ItemGroup>

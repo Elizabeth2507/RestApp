@@ -158,6 +158,5 @@ C:\Users\Elizabeth\Source\Repos\RestApp\RestApp\RestApp\bin\Microsoft.Owin.Secur
 C:\Users\Elizabeth\Source\Repos\RestApp\RestApp\RestApp\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Elizabeth\Source\Repos\RestApp\RestApp\RestApp\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Elizabeth\Source\Repos\RestApp\RestApp\RestApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Elizabeth\Source\Repos\RestApp\RestApp\RestApp\obj\Debug\RestApp.csprojResolveAssemblyReference.cache
 C:\Users\Elizabeth\Source\Repos\RestApp\RestApp\RestApp\obj\Debug\RestApp.dll
 C:\Users\Elizabeth\Source\Repos\RestApp\RestApp\RestApp\obj\Debug\RestApp.pdb

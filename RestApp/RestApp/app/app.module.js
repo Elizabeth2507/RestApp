@@ -11,6 +11,13 @@ var platform_browser_1 = require("@angular/platform-browser");
 var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var navigationbrand_component_1 = require("./components/navigationbrand/navigationbrand.component");
+var navigationtoggle_component_1 = require("./components/navigationtoggle/navigationtoggle.component");
+var search_component_1 = require("./components/search/search.component");
+var notificationlist_component_1 = require("./components/notificationlist/notificationlist.component");
+var messageslist_component_1 = require("./components/messageslist/messageslist.component");
+var profiledropdown_component_1 = require("./components/profiledropdown/profiledropdown.component");
+var shutdown_component_1 = require("./components/shutdown/shutdown.component");
+var userstatus_component_1 = require("./components/userstatus/userstatus.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -24,7 +31,14 @@ AppModule = __decorate([
         ],
         declarations: [
             app_component_1.AppComponent,
-            navigationbrand_component_1.NavigationBrandComponent
+            navigationbrand_component_1.NavigationBrandComponent,
+            navigationtoggle_component_1.NavigationToggleComponent,
+            search_component_1.SearchComponent,
+            notificationlist_component_1.NotificationListComponent,
+            messageslist_component_1.MessagesListComponent,
+            profiledropdown_component_1.ProfileDropdownComponent,
+            shutdown_component_1.ShutdownComponent,
+            userstatus_component_1.UserStatusComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })
