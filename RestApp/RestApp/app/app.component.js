@@ -10,6 +10,11 @@ var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
     }
+    // DynamicValue: string =
+    // "Running on IIS with ASP.NET 4.5 in Visual Studio 2015";
+    AppComponent.prototype.ngAfterViewInit = function () {
+        $.getScript('../Scripts/_scripts/tempscripts.js');
+    };
     return AppComponent;
 }());
 AppComponent = __decorate([

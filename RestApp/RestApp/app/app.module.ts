@@ -1,36 +1,42 @@
 ﻿import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { HttpModule } from '@angular/http';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { RouterModule } from '@angular/router';
+//import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from "./app.component";
-import { NavigationBrandComponent } from './components/navigationbrand/navigationbrand.component';
-import { NavigationToggleComponent } from './components/navigationtoggle/navigationtoggle.component';
-import { SearchComponent } from './components/search/search.component';
-import { NotificationListComponent } from './components/notificationlist/notificationlist.component';
-import { MessagesListComponent } from './components/messageslist/messageslist.component';
-import { ProfileDropdownComponent } from './components/profiledropdown/profiledropdown.component';
-import { ShutdownComponent } from './components/shutdown/shutdown.component';
-import { UserStatusComponent } from './components/userstatus/userstatus.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+
+import { NavBarModule } from './components/navbar/navbar.module';
+import { SideBarModule } from './components/sidebar/sidebar.module';
+import { DashboardModule } from './components/dashboard/dashboard.module';
+
+
+
 
 @NgModule({
     imports: [
         BrowserModule,
-        HttpModule
+        HttpModule,
+        NavBarModule,
+        SideBarModule,
+        DashboardModule,
+        RouterModule.forRoot([])
+        //NgbModule.forRoot()
+       
     ],
 
     declarations: [
         AppComponent,
-        NavigationBrandComponent,
-        NavigationToggleComponent,
-        SearchComponent,
-        NotificationListComponent,
-        MessagesListComponent,
-        ProfileDropdownComponent,
-        ShutdownComponent,
-        UserStatusComponent
+        DashboardComponent
+        
+     
 
+        
     ],
-
+   
+    
     bootstrap: [AppComponent]
 })
 export class AppModule { }
