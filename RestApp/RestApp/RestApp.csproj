@@ -212,7 +212,17 @@
   <ItemGroup>
     <Content Include="app\app.component.html" />
     <Content Include="app\components\dashboard\dashboard.component.html" />
+    <Content Include="app\components\dashboard\employees\allemployees\allemployees.component.html" />
+    <Content Include="app\components\dashboard\employees\roles\roles.component.html" />
     <Content Include="app\components\dashboard\home\home.component.html" />
+    <Content Include="app\components\dashboard\inventory\inventory.component.html" />
+    <Content Include="app\components\dashboard\product\allproducts\allproduct.component.html" />
+    <Content Include="app\components\dashboard\product\categories\categories.component.html" />
+    <Content Include="app\components\dashboard\product\productoptions\productoptions.component.html" />
+    <Content Include="app\components\dashboard\reports\bills\bills.component.html" />
+    <Content Include="app\components\dashboard\reports\salesbyemployee\salesbyemployee.component.html" />
+    <Content Include="app\components\dashboard\reports\salesbyproduct\salesbyproduct.component.html" />
+    <Content Include="app\components\dashboard\tables\tables.component.html" />
     <Content Include="app\components\navbar\messageslist\messageslist.component.html" />
     <Content Include="app\components\navbar\navigationbrand\navigationbrand.component.html" />
     <Content Include="app\components\navbar\navigationtoggle\navigationtoggle.component.html" />
@@ -395,6 +405,7 @@
     <Content Include="Scripts\ckeditor\samples\sample_posteddata.php" />
     <Content Include="Scripts\ckeditor\skins\kama\readme.md" />
     <Content Include="Scripts\ckeditor\skins\moono\readme.md" />
+    <Content Include="app\components\dashboard\restaurantsettings\restaurantsettings.component.html" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\ckeditor\adapters\jquery.js" />
     <Content Include="Scripts\ckeditor\ckeditor.js" />
@@ -2594,6 +2605,8 @@
     <Content Include="Scripts\xcharts.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Scripts\_scripts\tempscripts.js" />
+    <Content Include="Scripts\_scripts\tempsemployees.js" />
+    <Content Include="Scripts\_scripts\tempsproduct.js" />
     <Content Include="styles.css" />
     <Content Include="systemjs-angular-loader.js" />
     <Content Include="systemjs.config.js" />
@@ -2654,7 +2667,18 @@
     <TypeScriptCompile Include="app\components\dashboard\dashboard.component.ts" />
     <TypeScriptCompile Include="app\components\dashboard\dashboard.module.ts" />
     <TypeScriptCompile Include="app\components\dashboard\dashboardroutes.config.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\employees\allemployees\allemployees.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\employees\roles\roles.component.ts" />
     <TypeScriptCompile Include="app\components\dashboard\home\home.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\inventory\inventory.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\product\allproducts\allproduct.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\product\categories\categories.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\product\productoptions\productoptions.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\reports\bills\bills.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\reports\salesbyemployee\salesbyemployee.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\reports\salesbyproduct\salesbyproduct.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\restaurantsettings\restaurantsettings.component.ts" />
+    <TypeScriptCompile Include="app\components\dashboard\tables\tables.component.ts" />
     <TypeScriptCompile Include="app\components\navbar\messageslist\messageslist.component.ts" />
     <TypeScriptCompile Include="app\components\navbar\navbar.module.ts" />
     <TypeScriptCompile Include="app\components\navbar\navigationbrand\navigationbrand.component.ts" />

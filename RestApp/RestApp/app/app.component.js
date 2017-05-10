@@ -14,6 +14,8 @@ var AppComponent = (function () {
     // "Running on IIS with ASP.NET 4.5 in Visual Studio 2015";
     AppComponent.prototype.ngAfterViewInit = function () {
         $.getScript('../Scripts/_scripts/tempscripts.js');
+        $.getScript('../Scripts/_scripts/tempsproduct.js');
+        $.getScript('../Scripts/_scripts/tempsemployees.js');
     };
     return AppComponent;
 }());

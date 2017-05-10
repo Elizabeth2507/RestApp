@@ -13,5 +13,7 @@ export class AppComponent implements AfterViewInit {
 
     ngAfterViewInit() {
         $.getScript('../Scripts/_scripts/tempscripts.js');
+        $.getScript('../Scripts/_scripts/tempsproduct.js');
+        $.getScript('../Scripts/_scripts/tempsemployees.js');
     }
 }
